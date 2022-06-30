@@ -1,1 +1,1 @@
-# sk-discord
+# inpoin-discord

@@ -1,0 +1,24 @@
+{
+  "name": "inpoin-discord",
+  "version": "0.0.23",
+  "dependencies": {
+    "discord.js": "11.6.4",
+    "dotenv": "^8.2.0"
+  },
+  "description": "Internal use for inpoin error notifying discord bot",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutindra/inpoin-discord.git"
+  },
+  "author": "Muhammad Indrawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aboutindra/inpoin-discord/issues"
+  },
+  "homepage": "https://github.com/aboutindra/inpoin-discord#readme"
+}
