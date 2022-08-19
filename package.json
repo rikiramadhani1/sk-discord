@@ -1,6 +1,6 @@
 {
   "name": "inpoin-discord",
-  "version": "0.0.23",
+  "version": "0.0.25",
   "dependencies": {
     "discord.js": "11.6.4",
     "dotenv": "^8.2.0"
