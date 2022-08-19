@@ -47,7 +47,7 @@ class Command{
           .addField('Bug Appeared in 10 Minutes', bugAppeared, true)
           .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
           .setTimestamp()
-          .setFooter('POS - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+          .setFooter('sooltanKasir - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
 
       return await channel.send(exampleEmbed);
     } catch (e) {
@@ -84,7 +84,7 @@ class Command{
             .addField('Log Appeared in 10 Minutes', bugAppeared, true)
             .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
             .setTimestamp()
-            .setFooter('POS - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+            .setFooter('sooltanKasir - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
 
       } else {
         exampleEmbed = new Discord.RichEmbed()
@@ -99,7 +99,7 @@ class Command{
             .addField('Log Appeared in 10 Minutes', bugAppeared, true)
             .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
             .setTimestamp()
-            .setFooter('IMOET - Inpoin Manager Operation Bot', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+            .setFooter('sooltanKasir - SooltanKasir Manager Operation Bot', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
       }
       return await channel.send(exampleEmbed)
     } catch (e) {
