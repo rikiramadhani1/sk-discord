@@ -1,11 +1,11 @@
 {
-  "name": "inpoin-discord",
-  "version": "0.0.23",
+  "name": "sk-discord",
+  "version": "0.0.1",
   "dependencies": {
     "discord.js": "11.6.4",
     "dotenv": "^8.2.0"
   },
-  "description": "Internal use for inpoin error notifying discord bot",
+  "description": "Internal use for sooltanKasir error notifying discord bot",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
