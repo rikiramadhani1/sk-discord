@@ -40,14 +40,14 @@ class Command{
           .setTitle(`${readProjectNameFromPackage}`)
           .setAuthor('BUG!', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png', 'https://discord.js.org')
           .setDescription("`" + "`" + "`" + `${errorMessage}` + "`" + "`" + "`" + ` | Happened at ${idBug}` + '\n<@&800991071655952384>' )
-          .setThumbnail('https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/20/bd/f720bdc2-e744-6eb7-ccfc-6b9c98377386/source/512x512bb.jpg')
+          .setThumbnail('https://play-lh.googleusercontent.com/7JvdjIeJ6gkrPQ666CMP1Zzbkk67k5efgvwSOj2Zulf6ImjYJHUV5_DCdYkgzDV5KN4')
           .addField('File Location', `${fileLocation}`, true)
           .addField('Function Name', `${functionName}`, true)
           .addField('Code Response', `${codeError}`, true)
           .addField('Bug Appeared in 10 Minutes', bugAppeared, true)
           .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
           .setTimestamp()
-          .setFooter('POS - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+          .setFooter('sooltanKasir - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
 
       return await channel.send(exampleEmbed);
     } catch (e) {
@@ -77,14 +77,14 @@ class Command{
             .setTitle(`${readProjectNameFromPackage}`)
             .setAuthor('LOG!', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png', 'https://discord.js.org')
             .setDescription("`" + "`" + "`" + `${errorMessage}` + "`" + "`" + "`" + ` | Happened at ${idLog}` +'\n<@&800991071655952384>' )
-            .setThumbnail('https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/20/bd/f720bdc2-e744-6eb7-ccfc-6b9c98377386/source/512x512bb.jpg')
+            .setThumbnail('https://play-lh.googleusercontent.com/7JvdjIeJ6gkrPQ666CMP1Zzbkk67k5efgvwSOj2Zulf6ImjYJHUV5_DCdYkgzDV5KN4')
             .addField('File Location', `${fileLocation}`, true)
             .addField('Function Name', `${functionName}`, true)
             .addField('Code Response', `${codeResponse}`, true)
             .addField('Log Appeared in 10 Minutes', bugAppeared, true)
             .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
             .setTimestamp()
-            .setFooter('POS - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+            .setFooter('sooltanKasir - Alert', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
 
       } else {
         exampleEmbed = new Discord.RichEmbed()
@@ -92,14 +92,14 @@ class Command{
             .setTitle(`${readProjectNameFromPackage}`)
             .setAuthor('LOG!', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png', 'https://discord.js.org')
             .setDescription("`" + "`" + "`" + `${errorMessage}` + "`" + "`" + "`"  + ` | Happened at ${idLog}` + '\n<@&800991071655952384>' )
-            .setThumbnail('https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/20/bd/f720bdc2-e744-6eb7-ccfc-6b9c98377386/source/512x512bb.jpg')
+            .setThumbnail('https://play-lh.googleusercontent.com/7JvdjIeJ6gkrPQ666CMP1Zzbkk67k5efgvwSOj2Zulf6ImjYJHUV5_DCdYkgzDV5KN4')
             .addField('File Location', `${fileLocation}`, true)
             .addField('Function Name', `${functionName}`, true)
             .addField('Code Response', `${codeResponse}`, true)
             .addField('Log Appeared in 10 Minutes', bugAppeared, true)
             .setImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b-FqY5I7lzm6QyMlhCvlP89JYs2RncxjcA&usqp=CAU')
             .setTimestamp()
-            .setFooter('IMOET - Inpoin Manager Operation Bot', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
+            .setFooter('sooltanKasir - SooltanKasir Manager Operation Bot', 'https://cdn.mee6.xyz/guild-images/799492009206611978/90ab6c96ad5535175bbf1a585d5fb55accd63d3e47a49afd4523fa43484e784e.png');
       }
       return await channel.send(exampleEmbed)
     } catch (e) {
